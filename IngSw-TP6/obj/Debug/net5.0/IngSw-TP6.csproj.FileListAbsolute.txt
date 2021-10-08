@@ -1,0 +1,16 @@
+D:\Usuarios\Agustín\Ingeniería en Sistemas de Información\Ingeniería de Software\TP6\Proyecto\INGSW-TP6-GRUPO4\IngSw-TP6\bin\Debug\net5.0\IngSw-TP6.exe
+D:\Usuarios\Agustín\Ingeniería en Sistemas de Información\Ingeniería de Software\TP6\Proyecto\INGSW-TP6-GRUPO4\IngSw-TP6\bin\Debug\net5.0\IngSw-TP6.deps.json
+D:\Usuarios\Agustín\Ingeniería en Sistemas de Información\Ingeniería de Software\TP6\Proyecto\INGSW-TP6-GRUPO4\IngSw-TP6\bin\Debug\net5.0\IngSw-TP6.runtimeconfig.json
+D:\Usuarios\Agustín\Ingeniería en Sistemas de Información\Ingeniería de Software\TP6\Proyecto\INGSW-TP6-GRUPO4\IngSw-TP6\bin\Debug\net5.0\IngSw-TP6.runtimeconfig.dev.json
+D:\Usuarios\Agustín\Ingeniería en Sistemas de Información\Ingeniería de Software\TP6\Proyecto\INGSW-TP6-GRUPO4\IngSw-TP6\bin\Debug\net5.0\IngSw-TP6.dll
+D:\Usuarios\Agustín\Ingeniería en Sistemas de Información\Ingeniería de Software\TP6\Proyecto\INGSW-TP6-GRUPO4\IngSw-TP6\bin\Debug\net5.0\ref\IngSw-TP6.dll
+D:\Usuarios\Agustín\Ingeniería en Sistemas de Información\Ingeniería de Software\TP6\Proyecto\INGSW-TP6-GRUPO4\IngSw-TP6\bin\Debug\net5.0\IngSw-TP6.pdb
+D:\Usuarios\Agustín\Ingeniería en Sistemas de Información\Ingeniería de Software\TP6\Proyecto\INGSW-TP6-GRUPO4\IngSw-TP6\obj\Debug\net5.0\IngSw-TP6.csproj.AssemblyReference.cache
+D:\Usuarios\Agustín\Ingeniería en Sistemas de Información\Ingeniería de Software\TP6\Proyecto\INGSW-TP6-GRUPO4\IngSw-TP6\obj\Debug\net5.0\IngSw-TP6.GeneratedMSBuildEditorConfig.editorconfig
+D:\Usuarios\Agustín\Ingeniería en Sistemas de Información\Ingeniería de Software\TP6\Proyecto\INGSW-TP6-GRUPO4\IngSw-TP6\obj\Debug\net5.0\IngSw-TP6.AssemblyInfoInputs.cache
+D:\Usuarios\Agustín\Ingeniería en Sistemas de Información\Ingeniería de Software\TP6\Proyecto\INGSW-TP6-GRUPO4\IngSw-TP6\obj\Debug\net5.0\IngSw-TP6.AssemblyInfo.cs
+D:\Usuarios\Agustín\Ingeniería en Sistemas de Información\Ingeniería de Software\TP6\Proyecto\INGSW-TP6-GRUPO4\IngSw-TP6\obj\Debug\net5.0\IngSw-TP6.csproj.CoreCompileInputs.cache
+D:\Usuarios\Agustín\Ingeniería en Sistemas de Información\Ingeniería de Software\TP6\Proyecto\INGSW-TP6-GRUPO4\IngSw-TP6\obj\Debug\net5.0\IngSw-TP6.dll
+D:\Usuarios\Agustín\Ingeniería en Sistemas de Información\Ingeniería de Software\TP6\Proyecto\INGSW-TP6-GRUPO4\IngSw-TP6\obj\Debug\net5.0\ref\IngSw-TP6.dll
+D:\Usuarios\Agustín\Ingeniería en Sistemas de Información\Ingeniería de Software\TP6\Proyecto\INGSW-TP6-GRUPO4\IngSw-TP6\obj\Debug\net5.0\IngSw-TP6.pdb
+D:\Usuarios\Agustín\Ingeniería en Sistemas de Información\Ingeniería de Software\TP6\Proyecto\INGSW-TP6-GRUPO4\IngSw-TP6\obj\Debug\net5.0\IngSw-TP6.genruntimeconfig.cache

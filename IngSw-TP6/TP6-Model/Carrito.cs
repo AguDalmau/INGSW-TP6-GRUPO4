@@ -15,7 +15,7 @@ namespace IngSw_TP6.TP6_Model
             this.ListaDetalle = new List<Detalle>();
         }
 
-        public bool carritoVacio()
+        public bool CarritoVacio()
         {
             if (this.ListaDetalle.Count == 0)
             {
@@ -26,5 +26,6 @@ namespace IngSw_TP6.TP6_Model
                 return false;
             }
         }
+
     }
 }

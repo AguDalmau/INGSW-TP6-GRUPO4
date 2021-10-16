@@ -4,7 +4,7 @@ namespace IngSw_TP6
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("Hello World!");
         }

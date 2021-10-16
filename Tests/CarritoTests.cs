@@ -11,7 +11,7 @@ namespace Tests
     public class CarritoTests
     {
         [TestMethod]
-        public void Carrito_NoVacio()
+        public void CarritoVacio_ElCarritoContieneUnDetalle()
         {
             //Arrange
             Carrito carrito = new();
@@ -24,17 +24,17 @@ namespace Tests
             };
             Detalle detalle = new()
             {
-                producto = producto1,
-                cantidad = 1
+                Producto = producto1,
+                Cantidad = 1
             };
             carrito.ListaDetalle.Add(detalle);
             var expected = false;
 
             //Act
-            var actual = carrito.carritoVacio();
+            var actual = carrito.CarritoVacio();
 
             //Assert
             Assert.AreEqual(expected, actual);
-        }
+        }        
     }
 }

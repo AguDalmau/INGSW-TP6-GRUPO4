@@ -35,6 +35,34 @@ namespace Tests
 
             //Assert
             Assert.AreEqual(expected, actual);
-        }        
+        } 
+        [TestMethod]  
+        public void CantidadProductos_CarritoContieneAlMenosUnProducto ()
+        {
+            //Arrange
+            Carrito carrito = new();
+            Producto producto1 = new()
+            {
+                Nombre = "Harry Potter 1",
+                Desc = "Libro de ciencia ficcion para jovenes",
+                Precio = 980,
+                Stock = 2
+            };
+            Detalle detalle = new()
+            {
+                Producto = producto1,
+                Cantidad = 1
+            };
+            carrito.ListaDetalle.Add(detalle);
+            var expected = 1;
+
+            //Act
+            var actual= carrito.CantidadProductos() ;
+
+            //Assert
+            Assert.AreEqual(expected, actual) ;
+            
+        }
+
     }
 }

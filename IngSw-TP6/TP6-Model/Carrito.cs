@@ -27,5 +27,9 @@ namespace IngSw_TP6.TP6_Model
             }
         }
 
+        public int CantidadProductos ()
+        {
+            return this.ListaDetalle.Count();
+        }
     }
 }

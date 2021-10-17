@@ -12,5 +12,16 @@ namespace IngSw_TP6.TP6_Model
         public string Desc { get; set; }
         public float Precio { get; set; }
         public int Stock { get; set; }
+        public bool ValidarLongitudNombre()
+        {
+            if (this.Nombre.Length<=100)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }

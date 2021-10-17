@@ -46,5 +46,30 @@ namespace IngSw_TP6.TP6_Model
                 return false;
             }
         }
+
+        public bool ValidarTodoProductoTieneNombre() 
+        {
+            if (this.Nombre != null)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public bool ValidarProductoTieneNombreSinCaracteresEspeciales() 
+        {
+            if (System.Text.RegularExpressions.Regex.IsMatch(this.Nombre,"^[a-zA-Z0-9\x20]+$"))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
     }
 }

@@ -70,5 +70,47 @@ namespace Tests
             Assert.AreEqual(expected,actual);
         }           
     
+        [TestMethod]
+        public void ValidarTodoProductoTieneNombre_ProductoConNombre()
+        {
+            //Arrange
+            Producto producto = new()
+            {
+                Nombre = "Harry Potter 1",
+                Desc = "Libro de ciencia ficcion para jovenes",
+                Precio = 980,
+                Stock = 2
+            };
+
+            bool expected = true;
+
+            //Act
+            bool actual = producto.ValidarTodoProductoTieneNombre();
+
+            //Assert
+            Assert.AreEqual(expected,actual);
+        }
+
+        [TestMethod]
+        public void ValidarProductoTieneNombreSinCaracteresEspeciales_NombreSinCaracteresEspeciales()
+        {
+            //Arrange
+            Producto producto = new()
+            {
+                Nombre = "Harry Potter 1",
+                Desc = "Libro de ciencia ficcion para jovenes",
+                Precio = 980,
+                Stock = 2
+            };
+
+            bool expected = true;
+
+            //Act
+            bool actual = producto.ValidarProductoTieneNombreSinCaracteresEspeciales();
+
+            //Assert
+            Assert.AreEqual(expected,actual);
+        }
+
     }
 }

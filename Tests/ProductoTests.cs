@@ -28,6 +28,27 @@ namespace Tests
 
             //Assert
             Assert.AreEqual(expected,actual);
+        }
+
+        [TestMethod]
+        public void ValidarLongitudDescripcion_LongitudMenor150Caracteres()
+        {
+            //Arrange
+            Producto producto = new()
+            {
+                Nombre = "Harry Potter 1",
+                Desc = "Libro de ciencia ficcion para jovenes",
+                Precio = 980,
+                Stock = 2
+            };
+            bool expected = true;
+
+            //Act
+            bool actual = producto.ValidarLongitudDescripcion();
+
+            //Assert
+            Assert.AreEqual(expected,actual);
         }        
+    
     }
 }

@@ -23,5 +23,16 @@ namespace IngSw_TP6.TP6_Model
                 return false;
             }
         }
+        public bool ValidarLongitudDescripcion()
+        {
+            if(this.Desc.Length<=150)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }

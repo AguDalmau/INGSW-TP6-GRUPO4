@@ -34,5 +34,17 @@ namespace IngSw_TP6.TP6_Model
                 return false;
             }
         }
+
+        public bool ValidarCantidadStockMayor0()
+        {
+            if ( this.Stock>0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }

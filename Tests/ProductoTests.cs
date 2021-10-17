@@ -48,7 +48,27 @@ namespace Tests
 
             //Assert
             Assert.AreEqual(expected,actual);
-        }        
+        }
+
+        [TestMethod]
+        public void ValidarCantidadStockMayor0_CantidadStockproductoMayor0 ()
+        {
+            //Arrange
+            Producto producto = new()
+            {
+                Nombre = "Harry Potter 1",
+                Desc = "Libro de ciencia ficcion para jovenes",
+                Precio = 980,
+                Stock = 2
+            };
+            bool expected = true;
+
+            //Act
+            bool actual = producto.ValidarCantidadStockMayor0();
+
+            //Assert
+            Assert.AreEqual(expected,actual);
+        }           
     
     }
 }

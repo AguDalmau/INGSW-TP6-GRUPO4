@@ -12,6 +12,7 @@ namespace IngSw_TP6.TP6_Model
         public string Desc { get; set; }
         public float Precio { get; set; }
         public int Stock { get; set; }
+        
         public bool ValidarLongitudNombre()
         {
             if (this.Nombre.Length<=100)
@@ -34,6 +35,33 @@ namespace IngSw_TP6.TP6_Model
                 return false;
             }
         }
+
+        /*----------------------------------------*/
+
+         public bool ValidarLongitudMinNombre()
+        {
+            if (this.Nombre.Length>=5)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        public bool ValidarLongitudMinDescripcion()
+        {
+            if(this.Desc.Length>=20)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        /*--------------------------------------------*/
 
         public bool ValidarCantidadStockMayor0()
         {

@@ -112,5 +112,47 @@ namespace Tests
             Assert.AreEqual(expected,actual);
         }
 
+        /*--------------------------------------------------------------------*/
+
+         [TestMethod]
+        public void ValidarLongitudNombre_LongitudMayorA5Caracteres()
+        {
+            //Arrange
+            Producto producto = new()
+            {
+                Nombre = "Harry Potter 1",
+                Desc = "Libro de ciencia ficcion para jovenes",
+                Precio = 980,
+                Stock = 2
+            };
+            bool expected = true;
+
+            //Act
+            bool actual = producto.ValidarLongitudMinNombre();
+
+            //Assert
+            Assert.AreEqual(expected,actual);
+        }
+
+        [TestMethod]
+        public void ValidarLongitudDescripcion_LongitudMayorA20Caracteres()
+        {
+            //Arrange
+            Producto producto = new()
+            {
+                Nombre = "Harry Potter 1",
+                Desc = "Libro de ciencia ficcion para jovenes",
+                Precio = 980,
+                Stock = 2
+            };
+            bool expected = true;
+
+            //Act
+            bool actual = producto.ValidarLongitudMinDescripcion();
+
+            //Assert
+            Assert.AreEqual(expected,actual);
+        }
+
     }
 }
